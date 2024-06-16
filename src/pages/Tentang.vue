@@ -1,6 +1,6 @@
-vue
-Copy code
+
 <template>
+  <Navbar />
   <div id="app">
     <section class="tentang-kami">
       <div class="Kami">
@@ -76,6 +76,7 @@ Copy code
 </template>
 
 <script setup>
+import Navbar from "../components/Navbar.vue"
 import { ref, onMounted } from 'vue';
 import VueCarousel from '@chenfengyuan/vue-carousel';
 
