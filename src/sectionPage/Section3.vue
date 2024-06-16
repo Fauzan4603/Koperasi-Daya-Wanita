@@ -7,7 +7,7 @@
             <p>Kami menawarkan beragam fasilitas meliputi simpan pinjam, pelatihan dan pengembangan keterampilan, dukungan usaha mikro, layanan sosial dan kesehatan, dukungan komunitas, dan lain sebagainya.</p>
         </div>
         <div class="container-img">
-            <img src="/koperasi.jpeg" />
+            <img src="/s2.jpeg" />
         </div>
     </div>
 </template>

@@ -1,7 +1,7 @@
 <template>
     <div class="container" id="section-2">
         <div class="container-img">
-            <img src="/koperasi.jpeg" />
+            <img src="/public/s3.jpeg" />
         </div>
         <div>
             <h1>

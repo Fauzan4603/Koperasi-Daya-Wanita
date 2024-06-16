@@ -1,3 +1,4 @@
+
 <template>
   <Navbar />
   <div id="app">
@@ -74,11 +75,10 @@
 </template>
 
 <script setup>
-import Navbar from "../components/Navbar.vue"
 import { ref, onMounted } from 'vue';
 import VueCarousel from '@chenfengyuan/vue-carousel';
-import Navbar from "../components/Navbar.vue"
-import Footer from "../components/Footer.vue"
+import Navbar from "../components/Navbar.vue";
+import Footer from "../components/Footer.vue";
 
 const memberCount = ref(0);
 const animateCount = () => {
