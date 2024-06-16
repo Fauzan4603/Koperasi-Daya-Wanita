@@ -6,7 +6,6 @@ const jangkaWaktuSimpanan = ref(0);
 const persentaseSimpanan = 2;
 const totalBungaSimpanan = computed(() => (jumlahSimpanan.value * (persentaseSimpanan / 100) * (jangkaWaktuSimpanan.value / 12)).toFixed(2));
 const totalJumlahSimpanan = computed(() => (parseFloat(jumlahSimpanan.value) + parseFloat(totalBungaSimpanan.value)).toFixed(2));
-
 const persentasePinjaman = 1.5;
 const jumlahPinjaman = ref(0);
 const jangkaWaktuPinjaman = ref(0);

@@ -2,7 +2,7 @@
     <div>
       <div class="chat-popup" :class="{ 'show': showChatPopup }">
         <div class="popup-header">
-          <span class="popup-title">Chat</span>
+          <span class="popup-title">Chat CS</span>
           <button class="close-btn" @click="toggleChatPopup">x</button>
         </div>
         <div class="chat-container">
@@ -45,7 +45,7 @@
   const username = ref('');
   const text = ref('');
   const messages = ref([]);
-  const socket = new WebSocket('ws://localhost:3000');
+  const socket = new WebSocket('https://ws.fmway.me');
   
   socket.onmessage = (event) => {
     const message = JSON.parse(event.data);

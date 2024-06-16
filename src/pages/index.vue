@@ -7,6 +7,7 @@
   import Layanan from "../pages/Layanan.vue";
   import Tentang from "../pages/Tentang.vue"
   import Chat from "../components/Chat.vue";
+  import Contact from "../pages/Contact.vue"
 </script>
 
 <template>

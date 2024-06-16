@@ -7,7 +7,7 @@ import Page9Vue from "../pages/Contact.vue";
       <div class="nav">
         <div class="logo">
             <img class="gambar" src="/logokop.png" alt="Logo" />
-            <h1>KOPERASI<br>DAYA WANITA</h1>
+            <h1>KOPERASI<br>DAYA WANITA<br>PURWAKARTA</h1>
         </div>
         <ul class="ul-navbar">
             <li class="li-navbar">
@@ -102,7 +102,7 @@ $container-height: 12vh;
 }
 
 .logo h1{
-  font-size: 20px;
+  font-size: 16px;
   padding-left: 8px;
   line-height: 1.3rem;
   display: flex;
