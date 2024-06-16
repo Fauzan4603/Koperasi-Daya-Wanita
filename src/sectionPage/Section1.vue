@@ -1,10 +1,10 @@
 <template>
-    <div class="container">
+    <div class="container" id="section-1">
         <div>
             <h1>
                 Koperasi<br>Daya<br>Wanita
             </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, doloribus culpa ipsum quos expedita voluptatibus nam? At tenetur quia ipsa.</p>
+            <p>Koperasi Daya Wanita ialah sebuah bentuk koperasi yang didirikan dengan tujuan utama untuk memberdayakan perempuan melalui berbagai kegiatan ekonomi dan sosial. Koperasi ini berperan dalam meningkatkan kesejahteraan anggotanya, yang mayoritas adalah wanita, dengan menyediakan akses ke berbagai sumber daya, pelatihan, dan dukungan finansial.</p>
         </div>
         <div class="container-img">
             <img src="/koperasi.jpeg" />
@@ -14,11 +14,13 @@
 
 <style scoped>
 .container {
+    background-color: #799351;
     padding: 7%;
-    padding-top: 12.4%;
+    padding-top: 9.7%;
     display:grid;
     grid-gap: 15px;
     grid-template-columns: 1fr 1fr;
+    align-content: center;
 }
 .container h1{
     font-size: 70px;

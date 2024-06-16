@@ -1,3 +1,7 @@
+<script>
+import Page9Vue from "../pages/Contact.vue";
+</script>
+
 <template>
     <div class="container-navbar">
       <div class="nav">
@@ -7,21 +11,21 @@
         </div>
         <ul class="ul-navbar">
             <li class="li-navbar">
-              <a href="#" class="a-navbar">BERANDA</a>
+              <router-link class="a-navbar" to="/Home">BERANDA</router-link>
             </li>
             <li class="li-navbar">
-              <a href="#" class="a-navbar">TENTANG KAMI</a>
+              <router-link class="a-navbar" to="/tentang">TENTANG KAMI</router-link>
             </li>
             <li class="li-navbar">
-              <a href="#" class="a-navbar">HUBUNGI KAMI</a>
+              <router-link class="a-navbar" to="/contact">HUBUNGI KAMI</router-link>
             </li>
             <li class="li-navbar">
               <button class="li-button">
-                <a href="#" class="a-navbar">LAYANAN</a>
+                <router-link class="a-navbar" to="/layanan">LAYANAN</router-link>
               </button>
-            </li> 
+            </li>
         </ul>
-      </div>   
+      </div>
     </div>
 </template>
 

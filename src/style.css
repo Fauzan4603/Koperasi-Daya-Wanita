@@ -4,14 +4,18 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
 
-
 .content {
-    background-color: #799351;
+    background-color: #ffffff;
     width: 100%;
+    scroll-snap-type: y mandatory;
     /* height: 100vh; */
     /* position: relative; */
 }
