@@ -113,7 +113,7 @@ const achievements = ref([
 const event = ref([
   { image: 'keg1.jpeg', title: '18/06/2024', description: 'Melaksanakan bakti sosial bersama warga' },
   { image: 'keg2.jpeg', title: '19/06/2024', description: 'Melaksanakan bakti sosial bersama kades' },
-  { image: 'keg3.jpeg', title: '20/06/2024', description: 'Ini baksos juga pegel ngetiknya' },
+  { image: 'keg3.jpeg', title: '20/06/2024', description: 'Bantuan Sosial untuk warga' },
 ]);
 
 const openWhatsApp = () => {
@@ -258,7 +258,7 @@ const openWhatsApp = () => {
 .kegiatan {
   padding: 8.4% 5% 8.4% 5%;
   text-align: center;
-  background-color: #d4e157;
+  background-color: #F6EEC9;
   border-radius: 10px;
   margin-top: 20px;
 }
@@ -281,7 +281,7 @@ const openWhatsApp = () => {
 }
 
 .event-card {
-  background-color: #F6EEC9;
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 10px;
   width: 30%; /* Sesuaikan lebar kotak kegiatan */
@@ -294,25 +294,6 @@ const openWhatsApp = () => {
   height: 150px;
   border-radius: 10px;
 }
-/* .event-date, .event-photo, .event-name {
-  margin-bottom: 10px;
-} */
-
-/* .event-date {
-  font-weight: bold;
-  color: #fff;
-}
-
-/* .event-photo {
-  height: 150px;
-  background-color: #ccc; /* Warna latar belakang foto kegiatan */
-  /* border-radius: 10px;
-} */
-
-/* .event-name {
-  font-weight: bold;
-  color: #fff;
-} */ 
 
 .join-btn {
   background-color: #A1DD70;
